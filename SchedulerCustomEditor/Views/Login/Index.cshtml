@@ -1,0 +1,137 @@
+﻿@model SchedulerCustomEditor.Models.UserViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+
+    <link href="http://cdn.kendostatic.com/2013.3.1119/styles/kendo.common.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://cdn.kendostatic.com/2013.3.1119/styles/kendo.default.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.kendostatic.com/2013.3.1119/js/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2013.3.1119/js/kendo.all.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2013.3.1119/js/kendo.default.mobile.min.css" type="text/css" />
+    <style>
+        .fieldlist {
+            margin: 0 0 -2em;
+            padding: 0;
+            align-content: center;
+        }
+
+            .fieldlist li {
+                list-style: none;
+                padding-bottom: 2em;
+            }
+
+            .fieldlist label {
+                display: block;
+                padding-bottom: 1em;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 12px;
+                color: #444;
+            }
+
+
+        * style all input elements with a required attribute */ input:required {
+            box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
+        }
+
+        /**
+        * style input elements that have a required
+        * attribute and a focus state
+        */
+        input:required:focus {
+            border: 1px solid red;
+            outline: none;
+        }
+
+        /**
+        * style input elements that have a required
+        * attribute and a hover state
+        */
+        input:required:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="k-content">
+        @*<form >*@
+        <ul class="fieldlist">
+            <li>
+
+                @(Html.LabelFor(model => model.EmailId))
+                @(Html.TextBoxFor(model => model.EmailId, new { @class = "k-textbox", type = "email", placeholder = "Email Id", @required = "required", @autofocus = "autofocus " }))
+            </li>
+            <li>
+                @(Html.LabelFor(model => model.Password))
+                @(Html.TextBoxFor(model => model.Password, new { @class = "k-textbox", type = "password", placeholder = "Password", @required = "required" }))
+            </li>
+            <li>
+                <input type="submit" class="k-button k-primary" value="Login" id="btnlogin" onclick="javascript:ValidateUser();" />
+            </li>
+        </ul>
+        @*</form>*@
+
+        <br />
+        <ul class="fieldlist">
+            @using (Html.BeginForm("Facebook", "Login", FormMethod.Get))
+            {
+                <li>
+                    <button type="submit" id="facebook" class="k-button">Login With Facebook</button>
+                </li>
+            }
+        </ul>
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        $("form").kendoValidator({
+            messages: {
+                required: function (input) {
+                    var element = input[0],
+                    label = $(element.form).find("[for=" + element.id + "]");
+                    return label.text().replace(":", "") + " is required.";
+                },
+                email: "Please provide a valid email address"
+            }
+        });
+        function ValidateUser() {
+            var data = {
+                "EmailId": $("#EmailId").val(),
+                "Password": $("#Password").val()
+            };
+            $.ajax({
+                url: "/Login/validateuser",
+                type: "POST",
+                data: JSON.stringify(data),
+                dataType: "json",
+                contentType: "application/json",
+                success: function (response) {
+                    if (response.Success) {
+                        window.location.href = "@Url.Action("Index", "Home")";
+                    }
+                    else {
+                        if (response.Valid) {
+                            alert("Invalid EmailId/Password.")
+                        }
+                    }
+                },
+                error: function () {
+                    alert("error : " + response);
+                }
+            });
+
+        }
+
+
+
+    </script>
+</body>
+</html>

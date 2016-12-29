@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SampleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MeetingAttendees">
+    <Key>
+      <PropertyRef Name="MeetingID" />
+      <PropertyRef Name="AttendeeID" />
+    </Key>
+    <Property Name="MeetingID" Type="int" Nullable="false" />
+    <Property Name="AttendeeID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Meetings">
+    <Key>
+      <PropertyRef Name="MeetingID" />
+    </Key>
+    <Property Name="MeetingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Start" Type="datetime" Nullable="false" />
+    <Property Name="End" Type="datetime" Nullable="false" />
+    <Property Name="Title" Type="ntext" Nullable="false" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="EventImage" Type="varchar" MaxLength="5" />
+    <Property Name="IsAllDay" Type="bit" Nullable="false" />
+    <Property Name="RecurrenceRule" Type="ntext" />
+    <Property Name="RecurrenceID" Type="int" />
+    <Property Name="RecurrenceException" Type="ntext" />
+    <Property Name="StartTimezone" Type="ntext" />
+    <Property Name="EndTimezone" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FacebookID" Type="nvarchar" MaxLength="50" />
+    <Property Name="EmailId" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Meetings_Meetings">
+    <End Role="Meetings" Type="Self.Meetings" Multiplicity="0..1" />
+    <End Role="Meetings1" Type="Self.Meetings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meetings">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="Meetings1">
+        <PropertyRef Name="RecurrenceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Meetings_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Meetings" Type="Self.Meetings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Meetings">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SampleModelStoreContainer">
+    <EntitySet Name="MeetingAttendees" EntityType="Self.MeetingAttendees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Meetings" EntityType="Self.Meetings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Meetings_Meetings" Association="Self.FK_Meetings_Meetings">
+      <End Role="Meetings" EntitySet="Meetings" />
+      <End Role="Meetings1" EntitySet="Meetings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Meetings_Users" Association="Self.FK_Meetings_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Meetings" EntitySet="Meetings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

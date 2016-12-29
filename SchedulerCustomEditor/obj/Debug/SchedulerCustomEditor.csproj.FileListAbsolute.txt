@@ -1,0 +1,131 @@
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.csprojResolveAssemblyReference.cache
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll.config
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\SchedulerCustomEditor.pdb
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\EntityFramework.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\Kendo.Mvc.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\EntityFramework.xml
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\Kendo.Mvc.xml
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\bg-BG\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\da-DK\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\de-DE\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\es-ES\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\fr-FR\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\nl-NL\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\pl-PL\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\pt-BR\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\pt-PT\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\ro-RO\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\ru-RU\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\sv-SE\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\uk-UA\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\bin\zh-CN\Kendo.Mvc.resources.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.dll
+E:\Ramesh\f211bb0a-1147-403f-8d9f-e06f303cca8e_schedulercustomeditor_mvc\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.pdb
+F:\SharePrashant\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.csprojResolveAssemblyReference.cache
+F:\SharePrashant\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.dll
+F:\SharePrashant\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.pdb
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll.config
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.pdb
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.xml
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.xml
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\bg-BG\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\da-DK\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\de-DE\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\es-ES\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\fr-FR\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\nl-NL\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\pl-PL\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\pt-BR\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\pt-PT\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\ro-RO\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\ru-RU\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\sv-SE\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\uk-UA\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\zh-CN\Kendo.Mvc.resources.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.pdb
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.csprojResolveAssemblyReference.cache
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\Facebook.dll
+H:\Projects\KashNish Tech\UserCalendar\SchedulerCustomEditor\bin\Facebook.xml
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll.config
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.pdb
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Facebook.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.xml
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Facebook.xml
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.xml
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\bg-BG\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\da-DK\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\de-DE\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\es-ES\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\fr-FR\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\nl-NL\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pl-PL\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pt-BR\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pt-PT\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\ro-RO\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\ru-RU\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\sv-SE\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\uk-UA\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\bin\zh-CN\Kendo.Mvc.resources.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.csprojResolveAssemblyReference.cache
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.dll
+F:\SharePrashant\BackUp\23-12-16\UserCalendar(23-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.pdb
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll.config
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.pdb
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Facebook.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.xml
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Facebook.xml
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.xml
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\bg-BG\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\da-DK\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\de-DE\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\es-ES\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\fr-FR\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\nl-NL\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pl-PL\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pt-BR\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pt-PT\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\ro-RO\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\ru-RU\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\sv-SE\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\uk-UA\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\bin\zh-CN\Kendo.Mvc.resources.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.dll
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.pdb
+F:\SharePrashant\UserCalendar(26-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.csprojResolveAssemblyReference.cache
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll.config
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\SchedulerCustomEditor.pdb
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Facebook.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\EntityFramework.xml
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Facebook.xml
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\Kendo.Mvc.xml
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\bg-BG\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\da-DK\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\de-DE\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\es-ES\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\fr-FR\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\nl-NL\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pl-PL\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pt-BR\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\pt-PT\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\ro-RO\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\ru-RU\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\sv-SE\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\uk-UA\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\bin\zh-CN\Kendo.Mvc.resources.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.csprojResolveAssemblyReference.cache
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.dll
+E:\UpWork\UserCalendar(28-12-2016)\UserCalendar\SchedulerCustomEditor\obj\Debug\SchedulerCustomEditor.pdb

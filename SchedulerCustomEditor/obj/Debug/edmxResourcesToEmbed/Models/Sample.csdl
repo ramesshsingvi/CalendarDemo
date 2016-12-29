@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SampleModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SampleEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="MeetingAttendees" EntityType="SampleModel.MeetingAttendee" />
+    <EntitySet Name="Meetings" EntityType="SampleModel.Meeting" />
+    <AssociationSet Name="FK_MeetingAtendee_Meeting" Association="SampleModel.FK_MeetingAtendee_Meeting">
+      <End Role="Meetings" EntitySet="Meetings" />
+      <End Role="MeetingAttendees" EntitySet="MeetingAttendees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Meetings_Meetings" Association="SampleModel.FK_Meetings_Meetings">
+      <End Role="Meetings" EntitySet="Meetings" />
+      <End Role="Meetings1" EntitySet="Meetings" />
+    </AssociationSet>
+    <EntitySet Name="Users" EntityType="SampleModel.User" />
+    <AssociationSet Name="FK_Meetings_Users" Association="SampleModel.FK_Meetings_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Meeting" EntitySet="Meetings" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="MeetingAttendee">
+    <Key>
+      <PropertyRef Name="MeetingID" />
+      <PropertyRef Name="AttendeeID" />
+    </Key>
+    <Property Name="MeetingID" Type="Int32" Nullable="false" />
+    <Property Name="AttendeeID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Meeting" Relationship="SampleModel.FK_MeetingAtendee_Meeting" FromRole="MeetingAttendees" ToRole="Meetings" />
+  </EntityType>
+  <EntityType Name="Meeting">
+    <Key>
+      <PropertyRef Name="MeetingID" />
+    </Key>
+    <Property Name="MeetingID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Start" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="End" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="IsAllDay" Type="Boolean" Nullable="false" />
+    <Property Name="RecurrenceRule" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RecurrenceID" Type="Int32" />
+    <Property Name="RecurrenceException" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StartTimezone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EndTimezone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="MeetingAttendees" Relationship="SampleModel.FK_MeetingAtendee_Meeting" FromRole="Meetings" ToRole="MeetingAttendees" />
+    <NavigationProperty Name="Meetings1" Relationship="SampleModel.FK_Meetings_Meetings" FromRole="Meetings" ToRole="Meetings1" />
+    <NavigationProperty Name="Meeting1" Relationship="SampleModel.FK_Meetings_Meetings" FromRole="Meetings1" ToRole="Meetings" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="SampleModel.FK_Meetings_Users" FromRole="Meeting" ToRole="User" />
+    <Property Name="EventImage" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_MeetingAtendee_Meeting">
+    <End Role="Meetings" Type="SampleModel.Meeting" Multiplicity="1" />
+    <End Role="MeetingAttendees" Type="SampleModel.MeetingAttendee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meetings">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="MeetingAttendees">
+        <PropertyRef Name="MeetingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Meetings_Meetings">
+    <End Role="Meetings" Type="SampleModel.Meeting" Multiplicity="0..1" />
+    <End Role="Meetings1" Type="SampleModel.Meeting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meetings">
+        <PropertyRef Name="MeetingID" />
+      </Principal>
+      <Dependent Role="Meetings1">
+        <PropertyRef Name="RecurrenceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FacebookID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmailId" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Meetings" Relationship="SampleModel.FK_Meetings_Users" FromRole="User" ToRole="Meeting" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Meetings_Users">
+    <End Type="SampleModel.User" Role="User" Multiplicity="1" />
+    <End Type="SampleModel.Meeting" Role="Meeting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Meeting">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
