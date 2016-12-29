@@ -13,6 +13,8 @@ namespace SchedulerCustomEditor.Models
         public int UserID { get; set; }
         public string FacebookID { get; set; }
        [Required]      
+
+        [Display(Name= "Email")]
         public string EmailId { get; set; }
          [Required]      
         public string Password { get; set; }
