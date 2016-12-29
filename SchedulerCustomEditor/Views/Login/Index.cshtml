@@ -118,13 +118,15 @@
                         window.location.href = "@Url.Action("Index", "Home")";
                     }
                     else {
-                        if (response.Valid) {
+                        if (!response.Valid) {
                             alert("Invalid EmailId/Password.")
                         }
                     }
                 },
-                error: function () {
-                    alert("error : " + response);
+                error: function (e) {
+                    //alert("error : " + response);
+
+                    alert("Invalid EmailId/Password.")
                 }
             });
 
